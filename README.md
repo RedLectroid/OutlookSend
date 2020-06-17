@@ -13,7 +13,7 @@ There are 4 arguments it is expecting:
 
 <b>-b Body</b>.  If 'HTML' flag is used, OutlookSend will look in the file 'emailBody.txt' for the HTML code.  Anything else will be send as a text email.
 
-Ex.  OutlookSend2.exe -s "This is a test" -a C:\Users\ShellStorm\Desktop\payloads\NotMalicious.docm -r "shellstorm@notReal.email" -b HTML
+Ex.  OutlookSend.exe -s "This is a test" -a C:\Users\ShellStorm\Desktop\payloads\NotMalicious.docm -r "shellstorm@notReal.email" -b HTML
 
 There is very little error handling in this, so buyer beware.  I'll add some error handling when I have time.
 
